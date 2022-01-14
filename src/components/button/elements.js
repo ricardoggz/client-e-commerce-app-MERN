@@ -4,7 +4,7 @@ const ButtonWrapper = styled.button`
   border: none;
   border-radius:5px;
   box-shadow: 1px 2px 10px #08141e1a;
-  padding: 0.5rem;
+  padding: 1rem;
   cursor:pointer;
 `;
 

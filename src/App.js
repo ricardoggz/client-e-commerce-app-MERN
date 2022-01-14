@@ -1,10 +1,10 @@
 import React from "react";
-import { Users } from "./components/users/Users";
+import { NavBar } from "./components/navbar/NavBar";
 const App = () => {
   return (
-    <div>
-      <Users key="user"/>
-    </div>
+    <>
+      <NavBar />
+    </>
   );
 };
 

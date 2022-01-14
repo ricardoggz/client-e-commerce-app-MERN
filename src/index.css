@@ -7,4 +7,17 @@
 }
 body {
   font-family: "Be Vietnam Pro", sans-serif;
+  background: var(--color-light-primary);
+}
+/*Palette UI*/
+
+:root{
+  --color-light-primary:#e4e4e4;
+  --color-light-secondary:#dadada;
+}
+
+/*flex-container*/
+.flex-container{
+  max-width: 80%;
+  margin: 0 auto;
 }

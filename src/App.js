@@ -1,8 +1,9 @@
 import React from "react";
+import { Users } from "./components/users/Users";
 const App = () => {
   return (
     <div>
-      <h1>E commerce ui</h1>
+      <Users key="user"/>
     </div>
   );
 };

@@ -1,12 +1,12 @@
 import React from "react";
-import { CardWrapper } from "./elements"
+import { CardWrapper, CardImage } from "./elements";
 
-export const Card = () => {
-    return (
-        <CardWrapper>
-
-            hola
-
-        </CardWrapper>
-    )
-}
+export const Card = ({ img }) => {
+  return (
+    <CardWrapper>
+      <CardImage>
+        <img src={img} loading="lazy"/>
+      </CardImage>
+    </CardWrapper>
+  );
+};

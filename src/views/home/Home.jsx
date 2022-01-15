@@ -4,15 +4,17 @@ import { Card } from "../../components/card/Card";
 import { GridLayout } from "../../components/gridLayout/GridLayout";
 import { SectionContainer } from "../../components/sectionContainer/SectionContainer";
 
+import { cardImages } from "../../components/card/cardData";
+
 export const Home = () => {
   return (
     <>
       <Hero />
       <SectionContainer title="Productos destacados">
         <GridLayout>
-          <Card />
-          <Card />
-          <Card />
+          {cardImages.map((image) => (
+            <Card img={image.url} />
+          ))}
         </GridLayout>
       </SectionContainer>
     </>

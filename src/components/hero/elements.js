@@ -34,10 +34,13 @@ const HeroTitles = styled.div`
 
   /*responsive*/
   @media (min-width:240px) and (max-width:880px) {
-    .title{
-      font-size:2rem;
+    .hero-titles .title{
+      font-size:1.5rem;
     }
-    .title-offer{
+    .hero-titles .title-offer{
+      font-size:1rem;
+    }
+    .hero-titles button {
       font-size:1rem;
     }
   }

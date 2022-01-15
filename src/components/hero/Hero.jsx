@@ -11,7 +11,7 @@ export const Hero = () => {
               <br />
               <span className="title-offer">75% de descuento en toda la tienda</span>
               <br />
-              <Button title="Conoce nuestras ofertas" />
+              <Button title="Ver ofertas" />
           </div>
       </HeroTitles>
     </HeroWrapper>

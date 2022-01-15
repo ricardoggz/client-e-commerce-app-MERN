@@ -19,13 +19,27 @@ const HeroTitles = styled.div`
   text-align: center;
   width: 100%;
 
-  .hero-titles span {
+  .hero-titles .title {
     font-size: 2.5rem;
+  }
+  .hero-titles .title-offer{
+    font-size:1.5rem;
+    font-style:italic;
   }
 
   .hero-titles button {
       margin: 1.5rem;
       font-size:1.5rem;
+  }
+
+  /*responsive*/
+  @media (min-width:240px) and (max-width:880px) {
+    .title{
+      font-size:2rem;
+    }
+    .title-offer{
+      font-size:1rem;
+    }
   }
 `;
 

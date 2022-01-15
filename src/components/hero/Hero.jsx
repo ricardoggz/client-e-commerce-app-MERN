@@ -7,7 +7,9 @@ export const Hero = () => {
     <HeroWrapper>
       <HeroTitles>
           <div className="hero-titles">
-              <span>Tu imaginación no tiene límites, nuestro stock tampoco...</span>
+              <span className="title">Tu imaginación no tiene límites, nuestro stock tampoco...</span>
+              <br />
+              <span className="title-offer">75% de descuento en toda la tienda</span>
               <br />
               <Button title="Conoce nuestras ofertas" />
           </div>

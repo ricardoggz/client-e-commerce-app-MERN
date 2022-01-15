@@ -4,18 +4,30 @@ const CardWrapper = styled.div`
   align-items: center;
   box-shadow: 1px 2px 10px #08141e1a;
   border-radius: 5px;
-  padding: 1rem;
+  display:flex;
+  flex-direction:column;
   width: 100%;
+  height: 100%;
 `;
 
 const CardImage = styled.figure`
   width: 100%;
-  height: 20rem;
+  height: 100%;
   img {
     width: 100%;
-    height:100%;
-    object-fit:cover;
+    height: 100%;
+    object-fit: cover;
   }
 `;
 
-export { CardWrapper, CardImage };
+const CardDescription = styled.div`
+  width: 100%;
+  height: auto;
+  text-align: center;
+  padding: 1rem;
+  span {
+    font-weight:bold;
+  }
+`;
+
+export { CardWrapper, CardImage, CardDescription };

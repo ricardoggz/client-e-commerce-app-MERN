@@ -4,7 +4,7 @@ import { Card } from "../../components/card/Card";
 import { GridLayout } from "../../components/gridLayout/GridLayout";
 import { SectionContainer } from "../../components/sectionContainer/SectionContainer";
 
-import { cardImages } from "../../components/card/cardData";
+import { cardData } from "../../components/card/cardData";
 
 export const Home = () => {
   return (
@@ -12,8 +12,10 @@ export const Home = () => {
       <Hero />
       <SectionContainer title="Productos destacados">
         <GridLayout>
-          {cardImages.map((image) => (
-            <Card img={image.url} />
+          {cardData.map((image) => (
+            <Card img={image.url}
+            title={image.title}
+            price={image.price} />
           ))}
         </GridLayout>
       </SectionContainer>

@@ -13,9 +13,10 @@ body {
 /*Palette UI*/
 
 :root{
-  --color-light-primary:#e4e4e4;
+  --color-light-primary:#f1f0f0;
   --color-light-secondary:#dadada;
   --color-dark-primary:#070707;
+  --color-dark-secondary:#131111;
 }
 
 /*flex-container*/

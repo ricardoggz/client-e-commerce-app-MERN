@@ -13,9 +13,12 @@ export const Home = () => {
       <SectionContainer title="Productos destacados">
         <GridLayout>
           {cardData.map((image) => (
-            <Card img={image.url}
-            title={image.title}
-            price={image.price} />
+            <Card
+              img={image.url}
+              title={image.title}
+              price={image.price}
+              key={image.url}
+            />
           ))}
         </GridLayout>
       </SectionContainer>

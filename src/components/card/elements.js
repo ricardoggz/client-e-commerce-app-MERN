@@ -8,6 +8,13 @@ const CardWrapper = styled.div`
   flex-direction:column;
   width: 100%;
   height: 100%;
+
+  button {
+    background:var(--color-dark-primary);
+    color:var(--color-light-primary);
+    margin-bottom:1rem;
+    width:90%;
+  }
 `;
 
 const CardImage = styled.figure`

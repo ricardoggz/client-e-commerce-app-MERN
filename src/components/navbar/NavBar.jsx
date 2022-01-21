@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Link } from "react-router-dom";
 import { Button } from "../button/Button";
 import { RoutesApp } from "../../routes/RoutesApp";
 import { NavWrapper, NavItems, NavTitles, Navigation } from "./elements";
+import { BsCart3 } from "react-icons/bs";
 
 
 export const NavBar = () => {
@@ -18,7 +19,7 @@ export const NavBar = () => {
           <ul className="list-menu">
             <li><Link to="/womanCategory">Mujer</Link></li>
             <li><Link to="/menCategory">Hombre</Link></li>
-            <li><Link to="/">Ofertas</Link></li>
+            <li><Link to="/"><BsCart3 /></Link></li>
           </ul>
         </NavItems>
       </Navigation>

@@ -1,8 +1,9 @@
 import styled from "styled-components";
 
 const NavWrapper = styled.header`
-  background: var(--color-light-primary);
+  background: var(--color-dark-secondary);
   width: 100%;
+  color:var(--color-light-primary);
 `;
 
 const NavTitles = styled.div`
@@ -13,14 +14,10 @@ const NavTitles = styled.div`
   padding: 1rem 0;
   .logo a{
     text-decoration:none;
-    color:var(--color-dark-primary);
+    color:var(--color-light-primary);
     font-size:1.5rem;
     font-weight:bold;
     padding:1rem 0;
-  }
-  .logo a:hover{
-    background:var(--color-light-secondary);
-    transition: all 300ms ease;
   }
 `;
 

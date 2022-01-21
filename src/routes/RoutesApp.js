@@ -4,6 +4,7 @@ import { Home } from "../views/home/Home";
 import { Login } from "../views/login/Login";
 import { Signup } from "../views/login/Signup";
 import { WomanCategory } from "../views/store/womanCategory";
+import { MenCategory } from "../views/store/menCategory";
 
 export const RoutesApp = () => {
   return (
@@ -12,6 +13,7 @@ export const RoutesApp = () => {
       <Route path="/login" element={<Login />} />
       <Route path="/signup" element={<Signup />} />
       <Route path="/womanCategory" element={<WomanCategory />} />
+      <Route path="/menCategory" element={<MenCategory />} />
     </Routes>
   );
 };

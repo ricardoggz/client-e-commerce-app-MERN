@@ -17,7 +17,7 @@ export const NavBar = () => {
         <NavItems className="flex-container">
           <ul className="list-menu">
             <li><Link to="/womanCategory">Mujer</Link></li>
-            <li><Link to="/">Hombre</Link></li>
+            <li><Link to="/menCategory">Hombre</Link></li>
             <li><Link to="/">Ofertas</Link></li>
           </ul>
         </NavItems>

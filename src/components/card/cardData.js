@@ -48,4 +48,37 @@ const womanCategory = [
     price: "$899 mxn",
   },
 ];
-export { bestSellers, womanCategory };
+
+const menCategory = [
+  {
+    url: "https://http2.mlstatic.com/D_NQ_NP_804449-MLM40509298447_012020-O.webp",
+    title: "Plyera de manga larga",
+    price: "$399 mxn",
+  },
+  {
+    url: "https://http2.mlstatic.com/D_NQ_NP_648059-MLM43325377621_082020-O.webp",
+    title: "Playera tipo polo",
+    price: "$399 mxn",
+  },
+  {
+    url: "https://http2.mlstatic.com/D_NQ_NP_889681-MLM43325291981_082020-O.webp",
+    title: "Playera tipo polo",
+    price: "$399 mxn",
+  },
+  {
+    url: "https://http2.mlstatic.com/D_NQ_NP_955747-MLM47584649164_092021-O.webp",
+    title: "Playera tipo polo",
+    price: "$899 mxn",
+  },
+  {
+    url: "https://http2.mlstatic.com/D_NQ_NP_948749-MLM43325698153_082020-O.webp",
+    title: "Sudadera con capucha",
+    price: "$899 mxn",
+  },
+  {
+    url: "https://http2.mlstatic.com/D_NQ_NP_625300-MLM43325737049_082020-O.webp",
+    title: "Sudadera con capucha",
+    price: "$899 mxn",
+  },
+];
+export { bestSellers, womanCategory, menCategory };

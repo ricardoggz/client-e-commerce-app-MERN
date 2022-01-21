@@ -3,18 +3,22 @@ import { Link } from "react-router-dom";
 import { LoginWrapper, FormContainer } from "./elements";
 import { Button } from "../../components/button/Button";
 
-export const Login = () => {
+export const Signup = () => {
   return (
     <LoginWrapper>
       <FormContainer>
-        <span className="login-title">Iniciar Sesión</span>
+        <span className="login-title">Registrarse</span>
+        <label>Nombre(s):</label>
+        <input type="text" placeholder="tu nombre" />
+        <label>Apellidos:</label>
+        <input type="text" placeholder="tus apellidos" />
         <label>Correo:</label>
         <input type="email" placeholder="tu correo" />
         <label>Contraseña:</label>
         <input type="password" placeholder="tu contraseña" />
-        <Button title="Iniciar Sesión" />
-        <Link to="/signup" className="signup">
-          <span>¿No tienes cuenta? Registrate ahora</span>
+        <Button title="Registrarse" />
+        <Link to="/login" className="signup">
+          <span>¿Ya tienes cuenta? Inicia sesión ahora</span>
         </Link>
       </FormContainer>
     </LoginWrapper>

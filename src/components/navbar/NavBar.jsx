@@ -11,7 +11,7 @@ export const NavBar = () => {
     <NavWrapper>
       <NavTitles className="flex-container">
         <span className="logo"><Link to="/">STORE APP</Link></span>
-        <Button title="Acceder" />
+        <Link to="/login"><Button title="Acceder" /></Link>
       </NavTitles>
       <Navigation>
         <NavItems className="flex-container">

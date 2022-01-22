@@ -5,7 +5,6 @@ import { GridLayout } from "../../components/gridLayout/GridLayout";
 import { SectionContainer } from "../../components/sectionContainer/SectionContainer";
 
 import { bestSellers } from "../../components/card/cardData";
-import { Loader } from "../../components/loader/Loader";
 
 export const Home = () => {
   return (

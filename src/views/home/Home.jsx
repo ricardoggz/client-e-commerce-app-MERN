@@ -6,6 +6,7 @@ import { SectionContainer } from "../../components/sectionContainer/SectionConta
 
 import { bestSellers } from "../../components/card/cardData";
 
+
 export const Home = () => {
   return (
     <>

@@ -1,9 +1,17 @@
 import styled from "styled-components";
 
 const LoaderWrapper = styled.div`
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  width:100%;
+  height:50vh;
+`;
+
+const LoaderSpin = styled.div`
   border: 5px solid rgba(0, 0, 0, 0.1);
-  width: 1.5rem;
-  height: 1.5rem;
+  width: 4rem;
+  height: 4rem;
   border-radius: 50%;
   border-left-color: var(--color-blue-primary);
   animation: spin infinite;
@@ -18,4 +26,9 @@ const LoaderWrapper = styled.div`
   }
 `;
 
-export { LoaderWrapper };
+const LoaderText = styled.div`
+ text-align:center;
+ padding: 1rem;
+`;
+
+export { LoaderWrapper, LoaderSpin, LoaderText };

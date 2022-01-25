@@ -27,7 +27,7 @@ const FormContainer = styled.form`
   input {
     padding: 0.6rem;
   }
-  .login-title {
+  .login-title, .signup{
     font-size: 1.5rem;
     text-align: center;
   }
@@ -40,7 +40,6 @@ const FormContainer = styled.form`
 
   .signup {
     color: var(--color-blue-primary);
-    text-align: center;
     padding-top: 1rem;
   }
 

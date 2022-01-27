@@ -10,8 +10,8 @@ export const Signup = () => {
         <span className="login-title">Registrarse</span>
         <label>Nombre(s):</label>
         <input type="text" placeholder="tu nombre" />
-        <label>Apellidos:</label>
-        <input type="text" placeholder="tus apellidos" />
+        <label>Nombre de usuario:</label>
+        <input type="text" placeholder="nombre de usuario" />
         <label>Correo:</label>
         <input type="email" placeholder="tu correo" />
         <label>Contraseña:</label>
